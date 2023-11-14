@@ -13,7 +13,7 @@ int main(){
     int screenX = 1280, screenY = 720;
     sf::RenderWindow window(sf::VideoMode(screenX,screenY), "Idle Too");
     sf::Texture CD;
-    CD.loadFromFile("sprites/CD.png");
+    CD.loadFromFile("sprites/CD.png"); 
     sf::Sprite CrazyD(CD);
     sf::Vector2u size = CD.getSize();
     CrazyD.setOrigin(size.x/2, size.y/2);
