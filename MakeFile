@@ -1,0 +1,2 @@
+game: 
+	g++ main.cpp -I/usr/local/Cellar/sfml/2.6.1/include/ -o file -std=c++11 -lsfml-graphics -lsfml-window -lsfml-system
