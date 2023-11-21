@@ -4,7 +4,6 @@
 #include <unistd.h>
 #include <iostream>
 #include "game.h"
-#include "window.h"
 
 int main(){
     game game;
